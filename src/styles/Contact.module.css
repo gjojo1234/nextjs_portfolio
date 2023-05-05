@@ -1,0 +1,46 @@
+.contact {
+  margin: 1rem auto;
+  padding-bottom: 1rem;
+
+  width: 90vw;
+  max-width: 1500px;
+}
+.contactTitle {
+  font-weight: 500;
+  text-align: center;
+  color: var(--title-color);
+  text-transform: capitalize;
+}
+.contactSvg {
+  background: var(--text-color);
+  border-radius: 5px;
+  margin-right: 0.5rem;
+}
+.contactContainer {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  color: var(--text-color);
+  padding: 0.75rem 0;
+}
+
+@media screen and (min-width: 640px) {
+  .contact {
+    width: 80vw;
+  }
+  .contactContainers {
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .contactContainers {
+    width: 75%;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .contactContainers {
+    width: 60%;
+  }
+}

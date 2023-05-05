@@ -1,0 +1,36 @@
+.banner {
+  margin: 1rem auto;
+  padding: 2rem 0;
+  border-bottom: var(--border-bottom);
+  width: 90vw;
+  max-width: 1500px;
+}
+.bannerArticle {
+  margin-bottom: 1rem;
+}
+.title {
+  color: var(--title-color);
+
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-bottom: 1rem;
+}
+.subTitle {
+  font-weight: 500;
+  color: var(--text-color);
+}
+
+@media screen and (min-width: 640px) {
+  .banner {
+    padding: 5rem 0;
+    width: 80vw;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .bannerArticle {
+    margin-left: 1rem;
+  }
+}
